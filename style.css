@@ -1,27 +1,27 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: #001eff;
 }
 
-.img{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 350px;  
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 350px;
 }
 
-.tirage{
+.tirage {
     display: flex;
     justify-content: center;
 }
 
-ul{
+ul {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -33,14 +33,24 @@ ul{
     border-radius: 30px;
 }
 
-.rond{
-    display: none;
+.rond {
     width: 60px;
     height: 60px;
     border-radius: 30px;
     background: #001eff;
 }
 
-.etoile{
-    display: none;
+.etoile {    
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    background: #fbff00;
+}
+
+.position_chiffre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
 }
